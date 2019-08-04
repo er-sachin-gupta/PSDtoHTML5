@@ -303,4 +303,93 @@ body {
 
 /* FOOTER SECTION */
 footer {
+    background: #2e2e38;
+}
+
+footer.container {
+    padding: 120px 20px;
+}
+
+footer h4 {
+    font-size: 20px;
+}
+
+footer p {
+    font-family : 'HelveticaNeue-Thin';
+}
+
+.ul-posts li{
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+
+.col-4-footer {
+    width: 33.33%;
+    float: left;
+    color: white;
+    padding: 30px;
+    margin-top: 77px;
+}
+
+.ul-tweets, .ul-posts {
+    margin-top: 25px;
+    font-family : 'HelveticaNeue-Thin';
+}
+
+.reddish-bg {
+    background: url("../img/rectangle.png") no-repeat;
+    padding-left: 70px;
+}
+
+.block {
+    display: block;
+}
+
+.p-about {
+    font-style: italic;
+    margin-top: 25px;
+    font-size: 15px;
+}
+
+.ul-tweets li{
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+.smallText {
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+.copyright {
+    background: #d7dedc;
+}
+
+.copyright .container {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.inline {
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.cr,
+.me {
+    margin-right: 40px;
+}
+
+.fb,
+.tw {
+    margin-right: 40px;
+}
+
+.cr:after,
+.me:after {
+    content: "";
+    border-right: 1px solid #555555;
+    margin-left: 35px;
 }
