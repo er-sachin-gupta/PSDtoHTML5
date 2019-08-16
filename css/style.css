@@ -393,3 +393,16 @@ footer p {
     border-right: 1px solid #555555;
     margin-left: 35px;
 }
+
+/* ANIMATION */
+.iphone {
+    position: absolute;
+}
+
+.iphone-btn {
+    position: absolute;
+}
+
+.iphone-off {
+    position: absolute;
+}
