@@ -394,15 +394,24 @@ footer p {
     margin-left: 35px;
 }
 
-/* ANIMATION */
-.iphone {
+/* ANIMATIONS */
+
+.iphone-on {
     position: absolute;
+    right: 175px;
+    top: 112px;
+    width: 54%;
 }
 
 .iphone-btn {
-    position: absolute;
+   position: absolute;
+    right:215px;
 }
 
-.iphone-off {
-    position: absolute;
+.js-wp-2 {
+    opacity: 0;
+}
+
+.js-wp-2.animated {
+    opacity: 1;
 }
