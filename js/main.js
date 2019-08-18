@@ -12,4 +12,8 @@ $(document).ready(function(){
     });
     $(".iphone-btn").delay(2300).animate( {bottom: "+=-3"}, 300);
     $(".iphone-btn").delay(300).animate( {top: "+=-3"}, 100);
+
+    $(".burger-nav").on("click", function() {
+        $(".container nav ul").toggleClass("open");
+    });
 });
